@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "simtime"
-version = "0.2.0"
+version = "0.2.1"
 description = "A discrete-event simulation engine for time-based process benchmarking"
 requires-python = ">=3.9"
 readme = "README.md"
@@ -19,7 +19,7 @@ dev = [
 ]
 
 [project.urls]
-Source = "https://github.com/mcolosi/simtime"
+Source = "https://github.com/mariocolosi/simtime"
 
 [tool.setuptools.packages.find]
 where = ["src"]
